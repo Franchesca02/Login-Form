@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(129, 7, 7);
+    margin: 0;
+    overflow: hidden;
+}
+
+form {
+    position: relative;
+    width: 350px;
+    text-align: center;
+    justify-content: center;
+    /* height: 300px; */
+    font-size: 20px;
+    left: 38%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    background-color: rgb(235, 230, 226);
+}
+#username {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#password {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    margin-top: 30px;
+    background-color: blanchedalmond;
+    margin-bottom: 40px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: rgb(206, 130, 17);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .forms {
+    width: 50%;
+    margin-right: 100px;
+
+   
+    }
+}
