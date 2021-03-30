@@ -14,5 +14,9 @@ function getInfo() {
     // }
     console.log("incorrect username or password")
     alert("incorrect username or password")
+    const button = document.querySelector('button')
+    button.disabled = true;
+   
+    
 
 }
